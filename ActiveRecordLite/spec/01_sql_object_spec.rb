@@ -1,7 +1,7 @@
 require '01_sql_object'
 require 'db_connection'
 require 'securerandom'
-
+ 
 describe SQLObject do
   before(:each) { DBConnection.reset }
   after(:each) { DBConnection.reset }
